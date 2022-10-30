@@ -1,0 +1,11 @@
+.socials {
+    gap: 24px;
+    padding: 24px 0;
+}
+.socials .icon {
+    width: 24px;
+    height: 24px;
+}
+.socials img {
+    width: 100%;
+}
