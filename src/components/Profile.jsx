@@ -5,6 +5,9 @@ function Profile() {
   return (
     <div className="profile d-flex flex-column">
         <div className="img__div">
+            <div className="overlay">
+              <iconify-icon icon="cil:camera"></iconify-icon>
+            </div>
             <img src={require("../assets/images/profile__img.png")} alt="" id="profile__img" />
         </div>
         <p className="username" id="twitter">Avatar_Able</p>

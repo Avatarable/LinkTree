@@ -11,9 +11,32 @@
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 }
 .img__div img {
     width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--overlay);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 0;
+    transition: opacity .3s ease-out;
+}
+.overlay:hover {
+    opacity: 1;
+}
+.overlay iconify-icon {
+    color: var(--light);
+    margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .username{
