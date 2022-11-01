@@ -2,12 +2,15 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 30px;
 }
 
 .img__div{
     height: 88px;
     width: 88px;
     border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 .img__div img {
     width: 100%;
