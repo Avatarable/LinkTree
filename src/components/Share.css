@@ -1,0 +1,36 @@
+.share {
+    height: 40px;
+    width: 40px;
+    border: 1px dashed var(--shade-gray);
+    border-radius: 50%;
+    position: fixed;
+    top: 44px;
+    right: 3%;
+    color: var(--shader-gray);
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.share:hover {
+    color: var(--shader-gray);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.share .icon__1 {
+    display: inline;
+}
+.share .icon__2 {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .share {
+        right: 20%;
+    }
+    .share .icon__1 {
+        display: none;
+    }
+    .share .icon__2 {
+        display: inline;
+    }
+}
